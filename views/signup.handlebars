@@ -1,0 +1,24 @@
+<div class="container  d-flex align-items-center justify-content-center" style="width:45vw">
+  <div class="p-6 mt-4 ">
+  <h1 class="text-center text-primary">Signup To Medi-Chat</h1>
+  <hr class="text-primary">
+  <form action="/auth/signup/user" class="row g-3" method="post">
+  <div class="col-md-12">
+      <input type="text" name="username" id="username" required class="form-control" placeholder="your name" autocomplete="off">
+    </div>
+    <div class="col-md-12">
+      <input type="email" name="email" id="email" required class="form-control" placeholder="your email" autocomplete="off">
+    </div>
+    <div class="col-md-12">
+      <input type="password" name="password" id="pass1"required class="form-control" placeholder="password">
+    </div>
+    <div class="col-md-12 d-grid">
+      <button type="submit" class="btn btn-primary" style="height:3em">Signup</button>
+    </div>
+    <div class="text-center">
+      <p> or <a href="/auth/login/user" class="text-primary">Login</a></p>
+    </div>
+  </form>
+
+</div>
+  </div>
